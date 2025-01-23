@@ -54,11 +54,6 @@ def main():
     parser.add_argument("--predictions", type=str, required=True)
     args = parser.parse_args()
     
-    # Set output path relative to script location
-    output_filepath = Path(args.predictions).stem.replace('predictions_', 'judged_predictions_') + '.json'
-    output_path = Path(__file__).parent.parent / "outputs" / "judged_results" / output_filepath
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    
     # Load dataset and predictions
     with open(args.dataset) as f:
         dataset = {pos['id']: pos for pos in json.load(f)}
@@ -66,9 +61,18 @@ def main():
     with open(args.predictions) as f:
         predictions = json.load(f)
     
+    # Set output path
+    output_filepath = Path(args.predictions).name.replace('predictions_', 'judged_predictions_')
+    output_path = Path(__file__).parent.parent / "outputs" / "judged_results" / output_filepath
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    
     # Process each prediction
     results = []
     for pos_id, pred in predictions.items():
+        if pos_id not in dataset:
+            print(f"Warning: Position ID {pos_id} not found in dataset")
+            continue
+            
         position = dataset[pos_id]
         model_response = pred['response']
         

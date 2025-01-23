@@ -6,5 +6,45 @@
       "input_tokens": 147,
       "output_tokens": 119
     }
+  },
+  "001cr": {
+    "model": "claude-3-opus-20240229",
+    "response": "Explanation: Black's king is in a precarious position, with White's king and pawn threatening to create a passed pawn on the kingside. Black's best chance is to push the f-pawn to create counterplay and potentially threaten the white king.\nMove: f6\nConfidence: 85",
+    "usage": {
+      "input_tokens": 131,
+      "output_tokens": 70
+    }
+  },
+  "001gi": {
+    "model": "claude-3-opus-20240229",
+    "response": "Explanation: White has a strong attack on the kingside, with the knight on c7 threatening mate on d5 or e6. Black's king is trapped in the center and has no good escape squares. The key is to find a way to increase the pressure while preventing Black's counterplay on the queenside with the a5 bishop.\nMove: Qf3\nConfidence: 90\n\nThe move Qf3 increases the pressure on f7 and prepares ideas like Bh6, while also keeping an eye on the a8 rook to prevent Ra8-a2 counterplay. It's a flexible move that maintains a strong initiative for White. Other candidate moves",
+    "usage": {
+      "input_tokens": 139,
+      "output_tokens": 150
+    }
+  },
+  "001wb": {
+    "model": "claude-3-opus-20240229",
+    "response": "Explanation: The key threats in this position are the knight on g3 attacking the white king and the queen on g6 pressuring the d3 pawn. White's best move is to defend against the immediate threats while developing an attack of their own. Moving the bishop to e3 defends the f2 pawn, protects the king from checks on the h6-c1 diagonal, and eyes the a7 pawn for a potential discovered attack with the queen.\n\nMove: Be3\n\nConfidence: 85",
+    "usage": {
+      "input_tokens": 144,
+      "output_tokens": 118
+    }
+  },
+  "002CP": {
+    "model": "claude-3-opus-20240229",
+    "response": "Explanation: White's position is superior due to the active rooks on the open files and the vulnerable black king. The best move is to exploit the undefended knight on d4 and the weak back rank, while also threatening checkmate.\nMove: Rxd4\nConfidence: 95",
+    "usage": {
+      "input_tokens": 138,
+      "output_tokens": 67
+    }
+  },
+  "002Z9": {
+    "model": "claude-3-opus-20240229",
+    "response": "Explanation: Black's position is difficult. The white rook on e7 is threatening mate, and the passed g-pawn is also dangerous. Black's best chance is to give up the exchange with 34...Rxe7, hoping to create counterplay with the passed a-pawn and the active queen. However, White should still be winning after 35.Rxe7+ Kf8 36.Rc7 due to the threat of Rc8#.\n\nMove: Rxe7\n\nConfidence: 90",
+    "usage": {
+      "input_tokens": 145,
+      "output_tokens": 121
+    }
   }
 }
