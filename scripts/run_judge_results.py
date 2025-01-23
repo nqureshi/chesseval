@@ -70,7 +70,7 @@ def main():
     results = []
     for pos_id, pred in predictions.items():
         if pos_id not in dataset:
-            print(f"Warning: Position ID {pos_id} not found in dataset")
+            print(f"Position {pos_id} not found in dataset, skipping")
             continue
             
         position = dataset[pos_id]
