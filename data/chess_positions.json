@@ -1,36 +1,8 @@
 [
   {
-    "id": "001cr",
-    "question": "FEN: 8/3B2pp/p5k1/2p3P1/1p1p1K2/8/1P6/8 b - - 0 38", 
-    "answer": "c4",
-    "answer_type": "exact_match",
-    "image": ""
-  },
-  {
-    "id": "001gi",
-    "question": "FEN: r6r/1pNk1ppp/2np4/b3p3/4P1b1/N1Q5/P4PPP/R3KB1R w KQ - 3 18",
-    "answer": "Na8",
-    "answer_type": "exact_match", 
-    "image": ""
-  },
-  {
-    "id": "001wb",
-    "question": "FEN: r3k2r/pb1p1ppp/1b4q1/1Q2P3/8/2NP1Pn1/PP4PP/R1B2R1K w kq - 1 17",
-    "answer": "g3",
-    "answer_type": "exact_match",
-    "image": ""
-  },
-  {
-    "id": "002CP",
-    "question": "FEN: r5k1/pp4pp/4p1q1/4p3/3n4/P5P1/1PP2Q1P/2KR1R2 w - - 4 24",
-    "answer": "Qe3",
-    "answer_type": "exact_match",
-    "image": ""
-  },
-  {
-    "id": "002Z9",
-    "question": "FEN: 4r1k1/1p2R1p1/p2p2Pp/P1pP4/5q2/1R3p2/1P1Q3P/5B1K b - - 0 34",
-    "answer": "Qd2",
+    "id": "1",
+    "question": "rnbqkbnr/ppppp2p/5p2/6p1/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1", 
+    "answer": "Qh5",
     "answer_type": "exact_match",
     "image": ""
   }

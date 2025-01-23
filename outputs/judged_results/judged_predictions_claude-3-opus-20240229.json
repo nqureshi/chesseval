@@ -1,15 +1,15 @@
 {
-  "pos1": {
+  "1": {
     "model": "claude-3-opus-20240229",
-    "response": "Explanation: White has a strong position with the knight on g5 threatening the f7 pawn. Black's best defense is to challenge the knight with h6. However, White can exploit the weakened kingside by sacrificing the bishop on f7, opening up Black's king position. After Bxf7+, Black is forced to take with the king, and White follows up with Qf3+, regaining the sacrificed piece with a strong attack.\n\nMove: Bxf7+\n\nConfidence: 90",
+    "response": "Explanation: White has a strong center with pawns on d4 and e4, controlling key squares. Black's pawn structure is slightly weakened with the isolated f6 pawn. White should continue developing pieces while maintaining control of the center.\n\nMove: Nf3\n\nConfidence: 90",
     "usage": {
-      "input_tokens": 147,
-      "output_tokens": 119
+      "input_tokens": 138,
+      "output_tokens": 69
     },
     "judge_response": {
-      "model_answer": "Bxf7+",
-      "correct_answer": "Bxf7",
-      "correct": true,
+      "model_answer": "Nf3",
+      "correct_answer": "Qh5",
+      "correct": false,
       "confidence": 90.0
     }
   }
