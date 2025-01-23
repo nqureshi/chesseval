@@ -1,0 +1,10 @@
+{
+  "pos1": {
+    "model": "claude-3-opus-20240229",
+    "response": "Explanation: White has a strong position with the knight on g5 threatening the f7 pawn. Black's best defense is to challenge the knight with h6. However, White can exploit the weakened kingside by sacrificing the bishop on f7, opening up Black's king position. After Bxf7+, Black is forced to take with the king, and White follows up with Qf3+, regaining the sacrificed piece with a strong attack.\n\nMove: Bxf7+\n\nConfidence: 90",
+    "usage": {
+      "input_tokens": 147,
+      "output_tokens": 119
+    }
+  }
+}
